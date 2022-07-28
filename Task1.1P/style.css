@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+:root{
+    --black:#000000;
+}
+*{
+    font-family: 'IBM Plex Serif', serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .2s cubic-bezier(.37,1.14,.26,1.24);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .home .text-container{
+    position: relative;
+}
+.home .text-container img{
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .text-container:hover .overlay{
+      opacity: 1;
+  }
+
+  .home .profile-desc img{
+      border-radius:50%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+  hr.divider {
+    border-top: 3px solid rgb(134, 200, 255);
+    margin-left: auto;
+    margin-right: auto;
+    height: 0.5vh;
+    width: 50vw;
+    border-radius: 5px;
+    
+  }
+  
+  .profile-desc p, .project p{
+      text-align: center;
+      font-family: 'PT Serif', serif;
+      font-size:20px;
+      font-style:normal;
+  }
+
+  .project .img1, .img2 {
+    display: inline-block;
+    width: 22%;
+    margin-left: 30%;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.project .img1 img, .img2 img{
+    height: 110px;
+    width:60%;
+}
+
+.project .desc1, .desc2 {
+    display: inline-block;
+    width: 30%;
+    margin-top: 60px;
+    text-align: left;
+    vertical-align: top;
+}
+
+  div.gallery {
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+  }
+  
+  .gallery img{
+    width:350px;
+    height: 300px;
+    object-fit: cover;
+    min-width: 280px;
+    min-height: 280px;
+}
+  
