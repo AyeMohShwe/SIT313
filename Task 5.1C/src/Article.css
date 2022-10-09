@@ -1,0 +1,27 @@
+.Title{
+    height: 28px;
+    width: 100%;
+}
+
+.t1,.t5{ 
+    display: flex;
+}
+.t4, .t5 h4, .t2{
+    padding-left: 20px;
+}
+
+.abstract{
+    width: 80%;
+    height: 75px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.text{
+    width: 80%;
+    height: 300px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,49 @@
+.Title{
+    width: 50%;
+    height: 28px;
+    float: right;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.t1{
+    display: flex;
+    padding-left: 20px;
+}
+
+.problem{
+    width: 80%;
+    height:300px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.t2{
+    margin-top: 10px;
+}
+.t2 h4{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.t3{
+    margin-top: 20px;
+    display: flex;
+}
+
+.post{
+    float: left;
+    text-align: center;
+    padding:12px 25px;
+    background-color: rgb(171, 200, 203);
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
