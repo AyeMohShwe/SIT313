@@ -1,0 +1,28 @@
+.ui.icon.input{
+    width: 950px;
+    height: 36px;
+    float: left;
+    margin-left: 100px;
+}
+
+.Banner{
+    float: left;
+    margin: auto ;
+}
+.post, .loginButton{
+    height: 36px;
+    float: left;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    padding:10px 15px;
+    background-color: rgb(212, 211, 211);
+}
+
+
+.header{
+    background-color:rgb(235, 230, 230);
+    text-align: center;
+    margin-top: 55px;
+    height: 36px;
+}
