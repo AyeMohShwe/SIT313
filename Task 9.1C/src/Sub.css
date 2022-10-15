@@ -1,0 +1,35 @@
+.input{
+    width: 550px;
+    height: 36px;
+    float: left;
+    margin-left: 150px;
+}
+input[type=text]{
+    width: 100%;
+    margin: 3px 0 22px 0;
+    border: none;
+    background: white;
+}
+.text{
+    float: left;
+    margin: auto ;
+}
+.email{
+    height: 36px;
+    width: 650px;
+    float: right;
+}
+
+.sub{
+    height: 36px;
+    float: right;
+    margin-right: 150px;
+    border:none;
+}
+
+.header{
+    background-color:rgb(241, 202, 255);
+    text-align: center;
+    margin-top: 50px;
+    height: 40px;
+}
