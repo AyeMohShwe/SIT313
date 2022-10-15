@@ -1,0 +1,9 @@
+.body{
+    text-align: center;
+}
+.Button{
+    border: none;
+    border-radius: 5px;
+    padding:10px 20px;
+    background-color: rgb(229, 192, 234);
+}
